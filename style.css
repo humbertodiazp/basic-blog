@@ -10,7 +10,7 @@
     overflow-y: auto;
     overflow-x: hidden;
     width: 320px;
-    border-right: black 2px solid; }
+    border-right: black 5px solid; }
 
 
 #content-container {
@@ -143,3 +143,192 @@ body {
     font-kerning: normal;
     text-rendering: optimizeLegibility;
     }
+
+body {
+    line-height: 1.55;
+    }
+
+h2 {
+    font-size: 2.2em; }
+
+@media (min-width: 769px) {
+    .sidebar-content {
+        display: block !important;
+    }
+    }
+
+.sidebar-content {
+    clear: both;
+    padding: 30px; }
+
+@media (min-width: 640px) {
+.wrapper {
+    max-width: 32em; }
+body {
+    line-height: 1.55;
+    }
+h2 {
+    font-size: 2.2em; }
+#menu-icon {
+    right: 20px;
+    bottom: 20px; }
+.search-view .wrapper {
+    max-width: 750px; } }
+
+    .sidebar-widget {
+        margin-bottom: 30px; }
+        .sidebar-widget:first-of-type {
+            margin-bottom: 20px; }
+        .sidebar-widget .widgettitle {
+            margin: 0;
+            font-size: 16px;
+            margin-bottom: 5px; }
+        .sidebar-widget ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 0; }
+        .sidebar-widget li {
+            margin-bottom: 5px;
+            line-height: 1; }
+            .sidebar-widget li a {
+            font-size: 15px;
+            color: black;
+            text-decoration: none;
+            font-family: 'Source Sans Pro', sans-serif; }
+            .sidebar-widget li a:hover {
+                color: #003eff;
+                text-decoration: underline; }
+        
+        .sidebar-widget.widget_text {
+        margin-bottom: 30px; }
+        
+        #searchform label {
+        display: none; }
+        
+        #searchform > div {
+        border: 1px solid black;
+        width: auto;
+        border-radius: 5px; }
+        
+        input#s {
+        border: none;
+        background-color: transparent;
+        height: 35px;
+        width: 75%;
+        max-width: calc(100% - 62px);
+        padding: 5px;
+        outline: none;
+        font-size: 14px; }
+        
+        input#input-field {
+        border: none;
+        background-color: transparent;
+        height: 35px;
+        width: 75%;
+        max-width: calc(100% - 62px);
+        padding: 5px;
+        outline: none;
+        font-size: 14px;
+        width: 85%; }
+        
+        #searchsubmit {
+        background-color: black;
+        border: none;
+        border-radius: 0 0 3px;
+        color: white;
+        float: right;
+        height: 35px;
+        width: 25%;
+        min-width: 62px;
+        background-image: url("../img/search.svg");
+        background-repeat: no-repeat;
+        background-position-x: 50%;
+        background-position-y: 50%;
+        background-size: 25px; }
+        
+        button#searchsubmit {
+        width: 15%; }
+        
+        #search-share {
+        margin-top: 10px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 14px; }
+        #search-share span {
+            display: block;
+            float: left;
+            margin-top: -2px;
+            margin-right: 5px; }
+        #search-share svg {
+            display: inline-block;
+            height: 15px;
+            width: 15px; }
+        
+        #subscribeform div.sidebar-sub-container {
+        border: 1px solid #ffb900;
+        width: auto;
+        border-radius: 5px;
+        overflow: visible;
+        position: relative; }
+        
+        input#e {
+        border: none;
+        background-color: transparent;
+        height: 35px;
+        width: 75%;
+        max-width: calc(100% - 62px);
+        padding: 5px;
+        outline: none;
+        font-size: 14px;
+        overflow: visible;
+        display: inline-block; }
+        
+        input.feedblitz-email {
+        border: none;
+        background-color: transparent;
+        height: 35px;
+        width: 75%;
+        max-width: calc(100% - 62px);
+        padding: 5px;
+        outline: none;
+        font-size: 14px;
+        overflow: visible;
+        display: inline-block; }
+        
+        input.feedblitz-email-submit {
+        background-color: #ffb900;
+        border: none;
+        border-radius: 0 0 3px;
+        color: black;
+        float: right;
+        height: 35px;
+        width: 25%;
+        min-width: 62px;
+        font-weight: bold;
+        font-size: 14px; }
+        
+        input.subscribesubmit {
+        background-color: #ffb900;
+        border: none;
+        border-radius: 0 0 3px;
+        color: black;
+        float: right;
+        height: 35px;
+        width: 25%;
+        min-width: 62px;
+        font-weight: bold;
+        font-size: 14px; }
+        
+        .feedblitz-privacy-links {
+        opacity: 0.7;
+        float: right;
+        margin-right: 25%; }
+        
+        a.feedblitz-terms-privacy {
+        text-decoration: none;
+        color: inherit; }
+        
+        input.feedblitz-email-error {
+        color: black;
+        border: 3px solid #ff8800; }
+        
+        #notifications-notice {
