@@ -84,6 +84,14 @@ image {
 
 }
 
+button {
+font-kerning: normal;
+text-rendering: optimizeLegibility;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 0.75em;
+cursor: pointer; }
+
+
 p {
     display: block;
     margin-block-start: 1em;
